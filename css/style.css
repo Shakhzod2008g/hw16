@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent1 {
+    display: flex;
+    gap: 70px;
+    text-align: center;
+    background-image: url(../img/bgi.jpg);
+    background-color: black;
+}
+
+.menu{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.p1{
+    font-size: 25px;
+    color: #fff;
+}
+.m{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.a {
+    text-decoration: none;
+    padding: 5px 10px 5px 3px;
+}
+.m__drop {
+    position: relative;
+}
+.drop {
+    display: none;
+    width: 127px;
+    padding-top: 5px;
+
+    flex-direction: column;
+    position: absolute;
+    background-color: #B1CC74;
+    color: #829399;
+    
+}
+.m__drop:hover .drop{
+    display: flex;
+}
+.input {
+    background-color: #D0F4EA;
+    color: #545F66;
+    position: relative;
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+}
+.fa {
+    position: absolute;
+    left: 1200px;
+    top: 17px;
+}
+.button {
+    margin-top: 10px;
+}
+/* Под меню */
+.parent2 {
+    display: flex;
+    justify-content: center;
+    background-color: lime;
+    margin-bottom: 50px;
+}
+.block {
+    background-color: #D0F4EA;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 50px;
+    padding: 10px;
+    transition: 0.5s;
+}
+.block1 {
+    background-color: #B1CC74;
+    color: #D0F4EA;
+    font-size: 20px;
+    transition: 0.5s;
+    padding: 10px;
+}
+.block:hover {
+    background-color: black;
+    cursor: pointer;
+}
+.block1:hover {
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+/* Под Под меню */
+/* .parent3 {
+    background-image: url(../img/bgi.jpg);
+}
+.text {
+    font-size: 40px;
+    color: #fff;
+    
+    text-align: center;
+}
+.text2 {
+    font-size: 25px;
+    color: #fff;
+    margin: 50px auto;
+    text-align: center;
+} */
+/* Галерея */
+.profil {
+    display: flex;
+    gap: 40px;
+}
+.profil2 {
+    margin-left: 20px;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.details {  
+}
+.sum1 {
+    padding: 16px;
+    width: 100%;
+    background-color: blue;
+    cursor: pointer;
+    color: #fff;
+}
+.d1 {
+    background-color: black;
+    color: #fff;
+}
+.sum2 {
+    padding: 16px;
+    width: 100%;
+    background-color: gray;
+    cursor: pointer;
+    color: #fff;
+}
+.d2 {
+    background-color: pink;
+    color: #fff;
+}
+.sum3 {
+    padding: 16px;
+    width: 100%;
+    background-color: yellow;
+    cursor: pointer;
+    color: #fff;
+}
+.d3 {
+    background-color: lawngreen;
+    color: #fff;
+}
+.sum1 {
+    padding: 16px;
+    width: 100%;
+    background-color: blue;
+    cursor: pointer;
+    color: #fff;
+}
+.d1 {
+    background-color: black;
+    color: #fff;
+}
+.sum1 {
+    padding: 16px;
+    width: 100%;
+    background-color: blue;
+    cursor: pointer;
+    color: #fff;
+}
+.d1 {
+    background-color: black;
+    color: #fff;
+}
+.gap {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+.parent__gallary {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.g1 {
+    margin-left: 20px;
+}
+.photo {
+    width: 400px;
+    height: 300px;
+    transition: 1s;
+}
+.photo:hover {
+    width: 450px;
+    height: 350px;
+}
